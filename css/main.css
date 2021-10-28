@@ -164,7 +164,7 @@ a:active {
     
 .slideshow-container {
   max-width: 85%;
- min-width: 0px;
+ min-width: 00px;
     height: auto;
   position: relative;
   margin: 10px;
