@@ -1,0 +1,161 @@
+body {
+  background-color: #b8bbb4;
+    margin: 10px;
+}
+h1 {
+  color: #2e2e2e;
+    font-family: 'NeurialGrotesk', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding-left: 15px;
+}
+
+h2 {
+  color: #2e2e2e;
+    font-family: 'TfGrotesk', sans-serif;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+
+}
+
+/*p {
+  color: #2e2e2e;
+   font-family: 'NeurialGrotesk', sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+}*/
+
+footer {
+     color: #2e2e2e;
+   font-family: 'NeurialGrotesk', sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+    position: fixed;
+  bottom: 0;
+    padding-left: 15px;
+}
+
+@font-face {
+    font-family: 'NeurialGrotesk';
+    src: url('./fonts/NeurialGrotesk-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'TfGrotesk';
+    src: url('./fonts/TfGroteskItalic.otf') format('opentype');
+}
+
+/*img {
+  width: 40%;
+    margin-top: 5px;
+}
+*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 40%;
+  position: relative;
+  margin: 10px;
+    user-select: none;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+     user-select: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  position: absolute;
+  top:0%;
+  width: auto;
+  margin-top: 0px;
+  padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 200px;
+    padding-bottom: 86px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 3px 0px 0px 3px;
+  user-select: none;
+    opacity: 0;
+
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+    cursor: url(custom_cursor_right.png);
+}
+
+
+.prev{
+    cursor: url(custom_cursor_left.png);
+}
+
+
+/* Caption text */
+.text {
+
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+    color: #2e2e2e;
+   font-family: 'NeurialGrotesk', sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+  color: #2e2e2e;
+}
+
+a:visited {
+  color: #2e2e2e;
+}
+
+
+a:hover {
+  color: #2e2e2e;
+}
+
+a:active {
+  color: #2e2e2e;
+}
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+
+/* Fading animation 
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+*/
