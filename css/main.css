@@ -47,17 +47,14 @@ footer {
     src: url('./fonts/TfGroteskItalic.otf') format('opentype');
 }
 
-/*img {
-  width: 40%;
-    margin-top: 5px;
-}
-*/
 
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 40%;
+  min-width: 510px;
+    height: auto;
   position: relative;
   margin: 10px;
     user-select: none;
@@ -139,7 +136,10 @@ a:active {
   background-color: #717171;
 }
 
-
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 
 /* Fading animation 
 .fade {
@@ -159,3 +159,15 @@ a:active {
   to {opacity: 1}
 }
 */
+
+@media only screen and (max-width: 600px){
+    
+.slideshow-container {
+  max-width: 85%;
+ min-width: 0px;
+    height: auto;
+  position: relative;
+  margin: 10px;
+    user-select: none;
+}
+}
