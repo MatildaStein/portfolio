@@ -135,8 +135,6 @@ img{
 
 }
 
-
-
 .caption1{
   padding-right: 10px;
   margin:0;
@@ -150,7 +148,7 @@ img{
 .caption2{
   font-size: 8px;
   margin-top:5px;
-  max-width: 90%;
+  max-width: 340px;
   }
 
 .foot{
